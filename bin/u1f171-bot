@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'u1f171_bot'
+
+bot = U1F171::Bot.new
+bot.token = U1F171::load_token
+
+bot.correction
+
